@@ -3,7 +3,6 @@ from random import choice
 
 gesture_options = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock']
 
-# defines a computer player named Hal and allows it to choose gestures 'randomly' from the list
 class AI(Player):
     gesture_options = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock']
     def __init__(self):
